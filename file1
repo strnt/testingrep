@@ -4,3 +4,5 @@ df$names <- as.character(df$names)
 df <- mtcars
 setDT(df)
 str(df)
+
+dt <- iris
