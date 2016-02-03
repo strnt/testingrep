@@ -1,0 +1,6 @@
+rownames(mtcars) 
+df<-cbind(names = rownames(df), df)
+df$names <- as.character(df$names)
+df <- mtcars
+setDT(df)
+str(df)
